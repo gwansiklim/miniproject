@@ -1,0 +1,86 @@
+* {
+    color: limegreen;
+    font-family: 'Roboto Mono', 'Nanum Gothic Coding', monospace;
+    font-size: 20px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    background-image: url("https://media.discordapp.net/attachments/851270781815357454/852340671976701968/hacker-3480124_1920.jpg?width=1011&height=669");
+    background-position: center center;
+    background-size: cover;
+}
+
+.login-container {
+    border: 2px limegreen dashed;
+    position: relative;
+    top: -80px;
+}
+
+.login-idpw-container {
+    padding: 20px;
+}
+
+input {
+    background-color: black;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login-loginButton, .login-signupButton {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.login-signupButton {
+    border-left: limegreen 2px dashed;
+}
+
+.login-footer {
+    display: flex;
+    border-top: limegreen 2px dashed;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-130 {
+    position: relative;
+    top: -70px;
+    width: 350px;
+    height: 227px;
+    text-align: center;
+    transform: scale(0.4);
+    cursor: pointer;
+}
+
+.logo-130 p {
+    font-size: 1px;
+}
+
+.logo-CBZ {
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+.logo-CBZ p {
+    font-size: 1px;
+}
